@@ -1,0 +1,11 @@
+﻿image bg bb = "C:/Users/sys31/Dropbox/Cloud/Transformation/Assets/Art/Backgrounds/bg_bb.jpg"
+define a = Character('Akira', color = "#EA0C0C")
+define l = Character('Leonard Crosby', color = "#F5C800")
+define b = Character('Brendan Chang', color = "#00BEF0")
+define g = Character('Gale Elmore', color = "#23DC50")
+
+
+
+label start:
+    $ bl_game = True
+    scene bg bb at center

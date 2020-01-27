@@ -1,0 +1,27 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script_act1_scene3.rpy", line 230, in script
+    show char anita with fade (0.5)
+TypeError: 'MultipleTransition' object is not callable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script_act1_scene3.rpy", line 230, in script
+    show char anita with fade (0.5)
+  File "C:\Users\Rajat\Downloads\renpy-6.17.6-sdk\renpy\ast.py", line 1187, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Rajat\Downloads\renpy-6.17.6-sdk\renpy\exports.py", line 1155, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Rajat\Downloads\renpy-6.17.6-sdk\renpy\display\core.py", line 1726, in do_with
+    clear=clear)
+  File "C:\Users\Rajat\Downloads\renpy-6.17.6-sdk\renpy\display\core.py", line 2065, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "C:\Users\Rajat\Downloads\renpy-6.17.6-sdk\renpy\display\core.py", line 2268, in interact_core
+    new_widget=layers_root)
+TypeError: 'MultipleTransition' object is not callable
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.17.6.512
+Transformation 0.0
